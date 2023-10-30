@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box ;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input:focus-visible {
+  outline: 0;
+  color: white;
+}
+button{
+    border: none!important;
+    background: red;
+    color: white;
+    padding: 5px 20px;  
+}
+  .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+  }
+  
+  /* / fix blank or flashing items on carousel / */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+  
+  /* / end fix / */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+  .red-placeholder::placeholder {
+    color: red;
+  }
